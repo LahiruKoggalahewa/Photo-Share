@@ -9,32 +9,8 @@
     <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/custom.css') }}">
 
-    {{--<link rel="stylesheet" href="<?php echo asset('css/font-awesome.css') ?>">--}}
-    {{--<link rel="stylesheet" href="<?php echo asset('custom.css') ?>">--}}
     <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/jquery-1.js') }}"></script>
-    {{--<script src="<?php echo asset('jquery-1.js') ?>"></script>--}}
-    {{--<link rel="stylesheet" href="assets/bootstrap.css" media="screen">--}}
-    {{--<link rel="stylesheet" href="assets/custom.css">--}}
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <!--<script src="../bower_components/html5shiv/dist/html5shiv.js"></script>-->
-      <!--<script src="../bower_components/respond/dest/respond.min.js"></script>-->
-    <![endif]-->
-    {{--<script>--}}
-
-     {{--var _gaq = _gaq || [];--}}
-      {{--_gaq.push(['_setAccount', 'UA-23019901-1']);--}}
-      {{--_gaq.push(['_setDomainName', "bootswatch.com"]);--}}
-        {{--_gaq.push(['_setAllowLinker', true]);--}}
-      {{--_gaq.push(['_trackPageview']);--}}
-
-     {{--(function() {--}}
-       {{--var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;--}}
-       {{--ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';--}}
-       {{--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);--}}
-     {{--})();--}}
-    {{--</script>--}}
-  </head>
+     </head>
   <body data-gr-c-s-loaded="true">
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -197,13 +173,6 @@
 
     <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/bootstrap.js') }}"></script>
     <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/custom.js') }}"></script>
-
-
-
-
-
-    {{--<script src="<?php echo asset('bootstrap.js') ?>"></script>--}}
-    {{--<script src="<?php echo asset('custom.js') ?>"></script>--}}
     <script src="<?php echo asset('https://maps.googleapis.com/maps/api/js?key=AIzaSyBC_xXN_75YcrCvqzBuY3eYHL0DOdI53zQ &libraries=places&callback=initAutocomplete') ?>"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC_xXN_75YcrCvqzBuY3eYHL0DOdI53zQ &libraries=places&callback=initAutocomplete"
             async defer></script>
