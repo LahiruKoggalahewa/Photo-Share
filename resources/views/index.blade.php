@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/bootstrap.css') }}">
-    <link rel="stylesheet" href="<?php echo asset('css/font-awesome.css') ?>">
-    <link rel="stylesheet" href="<?php echo asset('custom.css') ?>">
-    <script src="<?php echo asset('jquery-1.js') ?>"></script>
+    <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/font-awesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/custom.css') }}">
+
+    {{--<link rel="stylesheet" href="<?php echo asset('css/font-awesome.css') ?>">--}}
+    {{--<link rel="stylesheet" href="<?php echo asset('custom.css') ?>">--}}
+    <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/jquery-1.js') }}"></script>
+    {{--<script src="<?php echo asset('jquery-1.js') ?>"></script>--}}
     {{--<link rel="stylesheet" href="assets/bootstrap.css" media="screen">--}}
     {{--<link rel="stylesheet" href="assets/custom.css">--}}
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,7 +62,7 @@
     #autocomplete{ width:80%;}
     .btn{width:15%;}
 </style>
-<div class="col-md-12" style="top: 15px;">
+<div class="col-md-12" style="top: 60px;">
     <div class="well ">
     <h4>Search For a location</h4>
     <form class="form-inline" action="search" method="post">
@@ -190,8 +194,16 @@
             }
         }
     </script>
-    <script src="<?php echo asset('bootstrap.js') ?>"></script>
-    <script src="<?php echo asset('custom.js') ?>"></script>
+
+    <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/bootstrap.js') }}"></script>
+    <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/custom.js') }}"></script>
+
+
+
+
+
+    {{--<script src="<?php echo asset('bootstrap.js') ?>"></script>--}}
+    {{--<script src="<?php echo asset('custom.js') ?>"></script>--}}
     <script src="<?php echo asset('https://maps.googleapis.com/maps/api/js?key=AIzaSyBC_xXN_75YcrCvqzBuY3eYHL0DOdI53zQ &libraries=places&callback=initAutocomplete') ?>"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC_xXN_75YcrCvqzBuY3eYHL0DOdI53zQ &libraries=places&callback=initAutocomplete"
             async defer></script>
