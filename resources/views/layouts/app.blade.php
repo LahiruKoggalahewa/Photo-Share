@@ -11,7 +11,7 @@
     <title>{{ config('', 'PhotoShare') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('https://fathomless-beach-12687.herokuapp.com/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -75,6 +75,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com//app.js') }}"></script>
+    <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/js/app.js') }}"></script>
 </body>
 </html>
