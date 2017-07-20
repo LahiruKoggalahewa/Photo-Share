@@ -58,7 +58,7 @@
  </div>
 
     @if(!empty($result))
-    <div class="container" style="margin-top: 30px;">
+    <div class="container" style="margin-top: 80px;">
         @foreach($result as $results)
             <div class="well">
                 <div class="row">
