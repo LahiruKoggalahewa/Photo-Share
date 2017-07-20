@@ -5,7 +5,7 @@
     <title>PhotoShare</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="{{ asset('bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/bootstrap.css') }}">
     <link rel="stylesheet" href="<?php echo asset('css/font-awesome.css') ?>">
     <link rel="stylesheet" href="<?php echo asset('custom.css') ?>">
     <script src="<?php echo asset('jquery-1.js') ?>"></script>
