@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/font-awesome.css') }}">
+    {{--<link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/font-awesome.css') }}">--}}
     <link rel="stylesheet" href="{{ asset('https://fathomless-beach-12687.herokuapp.com/css/custom.css') }}">
 
     <script src="{{ asset('https://fathomless-beach-12687.herokuapp.com/jquery-1.js') }}"></script>
@@ -65,13 +65,14 @@
                     <div class="col-md-4">
                         <img src="{{$results-> photo}}" style="max-width: 350px !important; min-height: 200px;">
                     </div>
+                    <span class="glyphicon glyphicon-map-marker"></span>
                     <div class="col-md-6">
-                        <h2><i class="fa fa-map-marker" aria-hidden="true"></i> {{$results-> location}}</h2>
+                        <h2>{{$results-> location}}</h2>
                         <h6>Taken on: {{$results-> created_at}}</h6>
                         <h4>{{$results-> description}}</h4>
                     </div>
                     <div class="col-md-2">
-                        <a style="height: 43px; width: 85px;" href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{$results-> id}}"><i class="fa fa-eye fa-2x"></i></a>
+                        <a style="height: 43px; width: 85px;" href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal{{$results-> id}}">View</a>
                     </div>
                 </div>
             </div>
