@@ -76,7 +76,6 @@
                 </div>
             </div>
 
-
             <!-- Modal -->
             <div id="myModal{{$results-> id}}" class="modal fade" role="dialog">
                 <div class="modal-dialog">
