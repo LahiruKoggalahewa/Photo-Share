@@ -65,7 +65,6 @@
                     <div class="col-md-4">
                         <img src="{{$results-> photo}}" style="max-width: 350px !important; min-height: 200px;">
                     </div>
-                    <span class="glyphicon glyphicon-map-marker"></span>
                     <div class="col-md-6">
                         <h2>{{$results-> location}}</h2>
                         <h6>Taken on: {{$results-> created_at}}</h6>
